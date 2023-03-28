@@ -1,40 +1,52 @@
-* {
+/* * {
   box-sizing: border-box;
+} */
+
+:root {
+  --primary-color: #f9f7fe;
+  --secondary-color: #6c63ff;
+  --heading-font-family: "Playfair Display", serif;
+  --sub-heading-font-family: "Poppins", sans-serif;
 }
-body {
-  /* background-color */
-}
+
+/* body {
+} */
 
 .hero-section {
   text-align: center;
-  background-color: #f9f7fe;
+  background-color: var(--primary-color);
   padding: 170px 0px;
 }
 
 h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--sub-heading-font-family);
   font-size: 36px;
   font-weight: bold;
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
   font-size: 96px;
   font-weight: bold;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--sub-heading-font-family);
   font-weight: normal;
   font-size: 24px;
+  margin-bottom: 70px;
 }
 
 .hero-section a {
-  background-color: #6c63ff;
-  color: #f9f7fe;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   border-radius: 4px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--sub-heading-font-family);
   font-weight: medium;
   font-size: 18px;
-  padding: 18px 46px;
+  padding: 16px 30px;
+  text-decoration: none;
+}
+.hero-section a:hover {
+  color: black;
 }
