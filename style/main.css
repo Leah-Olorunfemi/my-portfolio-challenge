@@ -89,6 +89,10 @@ h4 {
   margin-bottom: 180px;
 }
 
+.ruler {
+  display: none;
+}
+
 .dico-description {
   padding: 0 40px;
 }
@@ -163,7 +167,7 @@ li {
   margin-bottom: 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   h1 {
     text-align: center;
     font-size: 60px;
@@ -176,16 +180,27 @@ li {
   }
   .body-paragraph {
     /* margin: 10px; */
-    /* margin: 0 auto ; */
-    margin-bottom: 25px;
+    margin: 0 auto;
+    /* margin-bottom: 25px; */
   }
+
+  .yogurt-description {
+    margin: 0px;
+  }
+
   .yogurt-btn,
   .weather-btn,
   .dico-btn {
     display: block;
     margin: 0 auto;
-    /* margin-top: 10px; */
-    /* margin-bottom: 0px; */
     text-align: center;
+  }
+  .ruler {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .footer-text h3 {
+    margin-top: 15px;
   }
 }
