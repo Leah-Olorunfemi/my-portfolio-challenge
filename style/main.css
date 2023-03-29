@@ -15,33 +15,43 @@
   padding: 170px 0px;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 64px;
+}
+h3 {
+  font-size: 48px;
+}
+
 h4 {
   font-family: var(--sub-heading-font-family);
   font-size: 36px;
   font-weight: bold;
 }
 
-h1 {
-  font-family: var(--heading-font-family);
-  font-size: 96px;
-  font-weight: bold;
+.intro-paragraph {
+  padding-top: 5px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: var(--sub-heading-font-family);
 }
 
-h2 {
-  font-family: var(--heading-font-family);
-  font-size: 64px;
-  font-weight: bold;
-}
-h3 {
-  font-family: var(--heading-font-family);
-  font-size: 48px;
-}
-
-p {
+.body-paragraph {
   font-family: var(--sub-heading-font-family);
   font-weight: normal;
   font-size: 16px;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
   line-height: 2;
   opacity: 70%;
 }
@@ -105,8 +115,9 @@ p {
 }
 .footer {
   background-color: var(--primary-color);
-  margin: 0px 70px;
+  margin: 0px 40px;
   border-radius: 20px;
+  padding: 50 90px;
 }
 
 .talk-btn {
@@ -144,5 +155,37 @@ li {
   display: inline;
   font-size: 18px;
   margin: 15px;
-  color: ;
+  color: #6c63ff;
+}
+.footer-text {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  h2,
+  h3 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .body-paragraph {
+    /* margin: 10px; */
+    /* margin: 0 auto ; */
+    margin-bottom: 25px;
+  }
+  .yogurt-btn,
+  .weather-btn,
+  .dico-btn {
+    display: block;
+    margin: 0 auto;
+    /* margin-top: 10px; */
+    /* margin-bottom: 0px; */
+    text-align: center;
+  }
 }
