@@ -32,6 +32,10 @@ h2 {
   font-size: 64px;
   font-weight: bold;
 }
+h3 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+}
 
 p {
   font-family: var(--sub-heading-font-family);
@@ -42,20 +46,27 @@ p {
   opacity: 70%;
 }
 
-.hero-section a {
+.hero-section a,
+.footer a {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   border-radius: 4px;
   font-family: var(--sub-heading-font-family);
   font-weight: medium;
   font-size: 18px;
+  line-height: 2;
   padding: 15px 30px;
   text-decoration: none;
 }
 .hero-section a:hover {
   color: black;
 }
-
+.location {
+  font-size: 24px;
+  font-weight: normal;
+  color: #272142;
+  margin-bottom: 50px;
+}
 .body-paragraph {
   font-size: 16px;
   font-weight: normal;
@@ -63,6 +74,12 @@ p {
 }
 
 .yogurt-description {
+  padding: 0 50px;
+  margin-top: 70px;
+  margin-bottom: 180px;
+}
+
+.dico-description {
   padding: 0 40px;
 }
 
@@ -85,4 +102,47 @@ p {
 .dico-btn:hover {
   text-decoration: none;
   color: black;
+}
+.footer {
+  background-color: var(--primary-color);
+  margin: 0px 70px;
+  border-radius: 20px;
+}
+
+.talk-btn {
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.socials {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.socials a {
+  color: black;
+  font-size: 24px;
+  font-weight: medium;
+  font-family: var(--sub-heading-font-family);
+}
+
+.socials a:hover {
+  text-decoration: none;
+}
+
+.socicons {
+  margin-top: 30px;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+}
+li {
+  display: inline;
+  font-size: 18px;
+  margin: 15px;
+  color: ;
 }
