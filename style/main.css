@@ -204,4 +204,7 @@ li {
   .footer-text h3 {
     margin-top: 15px;
   }
+  .talk-btn {
+    text-align: center;
+  }
 }
