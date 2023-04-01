@@ -105,7 +105,6 @@ h4 {
 }
 .footer {
   background-color: var(--primary-color);
-  margin: 0px 40px;
   border-radius: 20px;
   padding: 50 90px;
 }
@@ -129,6 +128,7 @@ h4 {
   font-weight: medium;
   font-size: 18px;
   padding: 15px 30px;
+  margin: 50px 80px;
   text-decoration: none;
 }
 .talk-btn:hover {
@@ -136,25 +136,20 @@ h4 {
   color: black;
 }
 
-.socials {
+.social-media-part {
   text-align: center;
   margin-top: 70px;
 }
 
-.socials a {
+.social-media-part a {
   color: black;
   font-size: 24px;
   font-weight: medium;
   font-family: var(--sub-heading-font-family);
 }
 
-.socials a:hover {
+.social-media-part a:hover {
   text-decoration: none;
-}
-
-.socicons {
-  margin-top: 30px;
-  padding: 5px;
 }
 
 ul {
@@ -164,7 +159,7 @@ ul {
 }
 li {
   display: inline;
-  font-size: 18px;
+  font-size: 20px;
   margin: 15px;
   color: #6c63ff;
 }
@@ -199,6 +194,10 @@ li {
   }
   .ruler {
     display: block;
+    margin-top: 50px;
+  }
+
+  .footer {
     margin-top: 50px;
   }
 
