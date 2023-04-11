@@ -201,7 +201,6 @@ li {
 .content p {
   font-family: var(--sub-heading-font-family);
   line-height: 30px;
-  letter-spacing: 0em;
 }
 
 .content a {
@@ -218,6 +217,17 @@ li {
 }
 .header img {
   border-radius: 20px;
+}
+
+.project-title {
+  font-size: 24px;
+  font-family: var(--sub-heading-font-family);
+  line-height: 1.5;
+}
+
+.project-info {
+  font-size: 14px;
+  font-family: var(--sub-heading-font-family);
 }
 
 @media (max-width: 900px) {
@@ -286,7 +296,6 @@ li {
     color: #272142;
     text-align: center;
     line-height: 1.5;
-    /* letter-spacing: 0em; */
   }
 
   .content a {
@@ -302,6 +311,8 @@ li {
   }
 
   .header img {
+    display: block;
+    margin: 0 auto;
     border-radius: 50px;
     padding: 10px 20px;
   }
