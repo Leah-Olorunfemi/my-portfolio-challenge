@@ -203,7 +203,7 @@ li {
   line-height: 30px;
 }
 
-.content a {
+.view-projects-link {
   font-family: var(--sub-heading-font-family);
   font-weight: 500;
   line-height: 27px;
@@ -300,7 +300,7 @@ li {
     line-height: 1.5;
   }
 
-  .content a {
+  .view-projects-link {
     display: block;
     margin: 0 auto;
     font-family: var(--sub-heading-font-family);
