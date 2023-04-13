@@ -232,6 +232,31 @@ li {
   padding: 20px 5px;
 }
 
+.active {
+  color: var(--secondary-color) !important;
+}
+
+nav a {
+  color: #212529;
+
+  font-family: var(--sub-heading-font-family);
+}
+
+nav a:hover {
+  color: var(--secondary-color);
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.menu {
+  margin-left: 630px;
+}
+nav img {
+  padding-left: 15px;
+}
+
 @media (max-width: 900px) {
   .hero-section {
     padding: 70px 0px;
